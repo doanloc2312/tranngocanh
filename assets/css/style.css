@@ -1,0 +1,626 @@
+@font-face {
+  font-family: 'GEOMANIST LIGHT';
+  src: url(../fonts/GEOMANIST-LIGHT.OTF);
+}
+@font-face {
+  font-family: 'GEOMANIST THIN';
+  src: url(../fonts/GEOMANIST-THIN.OTF);
+}
+@font-face {
+  font-family: 'GEOMANIST LIGHT';
+  src: url(../fonts/GEOMANIST-LIGHT.OTF);
+}
+@font-face {
+  font-family: 'GEOMANIST MEDIUM';
+  src: url(../fonts/GEOMANIST-MEDIUM.OTF);
+}
+@font-face {
+  font-family: 'GEOMANIST REGULAR';
+  src: url(../fonts/GEOMANIST-REGULAR.OTF);
+}
+
+@font-face {
+  font-family: 'UVF Pistilli';
+  src: url(../fonts/UVF-Pistilli-Roman.ttf);
+}
+body{
+  font-family: 'GEOMANIST LIGHT';
+  font-size: 18px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.section{
+  position: relative;
+  overflow: hidden;
+}
+.section-1{
+  background: #1a1324;
+  position: relative;
+  overflow: hidden;
+}
+.logo{
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  width: 90px;
+  z-index: 999;
+}
+.section-1 .tran-ngoc-anh{
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 240px);
+  width: 480px
+}
+.section-1 .circle{
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 300px);
+  width: 600px
+}
+.section-1 .text{
+  position: absolute;
+  bottom: 60px;
+  left: calc(50% - 400px);
+  width: 800px;
+  z-index: 10
+}
+.section-1 .text .logo-the-voice{
+  position: absolute;
+  bottom: 14px;
+  right: -135px;
+  width: 135px;
+}
+.section-1 .date{
+  font-family: 'GEOMANIST LIGHT';
+  font-size: 32px;
+  color: #fefefe;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  text-align: center;
+  width: 100%
+}
+.section-2{
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.section-2 .block-left{
+  width: 50%;
+  float: left;
+  position: relative;
+  height: 100vh;
+}
+.section-2 .block-right{
+  height: 100vh;
+  width: 50%;
+  float: right;
+  position: relative;
+}
+.section-2 .img-1{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.section-2 .img-1 img{
+  height: 100vh;
+  width: auto;
+}
+.section-2 .img-2{
+  position: absolute;
+  bottom: -10px;
+  right: 80px;
+  width: 75px;
+}
+.section-2 .img-2 img{
+  width: 100%;
+  height: auto;
+}
+.section-2 .img-2 .text{
+  position: absolute;
+  top: 0;
+  font-family: 'GEOMANIST THIN';
+  color: #1f1f1f;
+  font-size: 30px;
+  left: 40%;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  letter-spacing: 8px;
+}
+.section-2 .caption{
+  padding-left: 100px;
+  list-style: none;
+  margin: 0;
+  padding-top: 150px;
+}
+.section-2 .caption li{
+  margin-bottom: 20px;
+}
+.section-2 .caption .label{
+   font-family: 'GEOMANIST MEDIUM';
+   font-size: 24px;
+   color: #242424;
+   margin: 0 0 5px 0;
+}
+.section-2 .caption .value{
+   font-family: 'GEOMANIST LIGHT';
+   font-size: 24px;
+   color: #242424;
+   margin: 0;
+}
+.section-2 .block-left .text{
+  font-size: 90px;
+  font-family: 'GEOMANIST MEDIUM';
+  color: #fff;
+  position: absolute;
+  bottom: 140px;
+  z-index: 2;
+  right: -80px;
+}
+.section-2 .block-left .text span{
+  padding: 0 20px;
+}
+.section-2 .block-left .year{
+  font-size: 28px;
+  font-family: 'GEOMANIST LIGHT';
+  color: #fff;
+  position: absolute;
+  bottom: 105px;
+  z-index: 2;
+  right: 20px;
+  letter-spacing: 10px
+}
+.section-3{
+  position: relative;
+}
+.section-3 .block-left img{
+  height: 100vh;
+  width: auto;
+}
+.section-3 .block-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.section-3 .block-right img{
+  height: 100vh;
+  width: auto;
+}
+.section-3 .block-left .caption{
+  position: absolute;
+  top: 0;
+  left: 400px;
+  list-style: none;
+  padding: 20px 0 0 0;
+}
+.section-3 .caption li{
+  margin-bottom: 15px;
+}
+.section-3 .caption .label{
+   font-family: 'GEOMANIST MEDIUM';
+   font-size: 18px;
+   color: #242424;
+   margin: 0 0 5px 0;
+}
+.section-3 .caption .value{
+   font-family: 'GEOMANIST LIGHT';
+   font-size: 18px;
+   color: #242424;
+   margin: 0;
+}
+.section-3 .block-left .caption .social{
+  font-size: 90px;
+  color: #210032;
+  font-family: 'GEOMANIST MEDIUM';
+  letter-spacing: 60px;
+  padding-left: 70px;
+  position: relative;
+}
+.section-3 .block-left .caption .r{
+  position: absolute;
+  font-size: 16px;
+  font-family: 'GEOMANIST LIGHT';
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  top: -148px;
+  right: 1px;
+  letter-spacing: 20px;
+
+}
+.section-3 .block-right .caption{
+  position: absolute;
+  list-style: none;
+  padding: 20px 0 0 0;
+  text-align: right;
+  bottom: 0;
+  left: -205px;
+  width: 200px;
+  /*top: 0;
+  left: 400px;
+  list-style: none;
+  padding: 20px 0 0 0;*/
+}
+.section-4 .block-right{
+  float: right;
+  height: 100vh;
+  width: auto;
+}
+.section-4 .block-left{
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  max-width: 500px;
+  padding-left: 80px
+}
+.section-4 .block-left h3{
+  font-size: 80px;
+  color: #210032;
+  font-family: 'GEOMANIST MEDIUM';
+  letter-spacing: 40px;
+  margin: 0 0 50px 0; 
+  position: relative;
+}
+.section-4 .block-left ul{
+  padding-left: 10px;
+  color: #242424;
+}
+.section-4 .block-left ul li{
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.section-5 .block-left{
+  float: left;
+  width: 55%;
+
+}
+.section-5 .block-left img{
+  height: 100vh;
+  width: auto;
+}
+.section-5 .block-right{
+  float: left;
+  width: 45%;
+  padding-top: 50px;
+
+}
+.section-5 .block-right h3{
+  font-size: 50px;
+  font-family: 'GEOMANIST MEDIUM';
+  margin: 0;
+  letter-spacing: 40px;
+   background: -webkit-linear-gradient(45deg, #7dd2e8, #f299fd 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-5 .block-right h4{
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #3e494d;
+  font-size: 24px;
+  font-family: 'GEOMANIST MEDIUM';
+  letter-spacing: 10px;
+}
+.section-5 .block-right p{
+  margin-bottom: 5px;
+  font-size: 15px;
+  margin-top: 0;
+  letter-spacing: 2px;
+}
+.section-5 .block-right p strong{
+  font-family: 'GEOMANIST MEDIUM';
+}
+.section-6 .text{
+  top: 0;
+  right: 0;
+  width: 58%;
+  position: absolute;
+}
+.section-6 .block-left{
+  width: 50%;
+  float: left;
+  padding-top: 100px;
+}
+.section-6 .block-right{
+  width: 50%;
+  float: left;
+  padding-top: 100px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.section-6 .block-right h3{
+  margin-top: 0;
+  font-family: 'GEOMANIST MEDIUM';
+  letter-spacing: 40px;
+  color: #373737;
+  font-size: 50px;
+}
+.section-6 .date{
+  color: #242424;
+  font-family: 'GEOMANIST LIGHT';
+  font-size: 16px;
+  letter-spacing: 10px;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+.section-6 .name{
+  font-family: 'UVF Pistilli';
+  color: #ff0060;
+  font-size: 36px;
+  letter-spacing: 10px;
+  margin: 20px 0 0 0;
+}
+.section-6 .tag{
+  font-family: 'GEOMANIST REGULAR';
+  font-size: 28px;
+  letter-spacing: 10px;
+  margin-top: 10px;
+  color: #ff0060;
+}
+.section-6  ul{
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #262626;
+  padding-left: 20px;
+  letter-spacing: 3px;
+}
+.footer{
+  text-align: center;
+  padding: 50px 30px;
+}
+.footer h2{
+  font-size: 40px;
+  margin: 0 0 30px 0;
+}
+.footer p{
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-size: 16px;
+}
+.footer .footer-logo img{
+  width: 150px;
+  margin-bottom: 60px;
+}
+.footer p.number{
+  font-size: 20px;
+}
+.section-9 .block-left img{
+  height: 100vh;
+  width: auto;
+}
+.section-9 .block-left{
+  width: 55%;
+  padding-left: 70px;
+  float: left;
+  box-sizing: border-box;
+}
+.section-9 .block-right{
+  width: 45%;
+  padding-right: 20px;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+.section-9 .block-right h3{
+  color: #aeaeae;
+  font-size: 70px;
+  letter-spacing: 25px;
+  margin: 0;
+  font-family: 'GEOMANIST MEDIUM';
+}
+.section-9 .block-right h3 span{
+  color: #373737;
+  font-size: 40px;
+}
+.section-9 .block-right .date{
+  color: #3e494d;
+  font-size: 30px;
+  font-family: 'GEOMANIST MEDIUM';
+  letter-spacing: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.section-9 .block-right .txt{
+  margin: 0;
+  letter-spacing: 3px;
+  line-height: 1.4em;
+}
+.section-8
+.container{
+  max-width: 1000px;
+  margin: 0 auto
+}
+
+.section-8 .block-left{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 7.5px;
+}
+.section-8 .block-left .img-1{
+  margin-bottom: 10px;
+}
+.section-8 .block-right{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 7.5px;
+}
+.section-8 .c{
+  position: absolute;
+  top: 0;
+  right: 170px;
+  width: 300px;
+}
+.section-8 .block-right h3{
+  font-size: 60px;
+  font-family: 'GEOMANIST MEDIUM';
+  margin: 0;
+  letter-spacing: 40px;
+   background: -webkit-linear-gradient(45deg, #7dd2e8, #f299fd 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-8 .block-right p{
+  margin: 0;
+}
+.section-8 .block-right .text{
+  padding-bottom: 20px;
+  padding-top: 165px;
+}
+.section-8 .block-left p{
+  text-transform: uppercase;
+    -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  letter-spacing: 8px;
+  font-size: #210032;
+  position: absolute;
+  bottom: 128px;
+  z-index: 2;
+  left: 50px;
+}
+p.tran-ngoc-anh{
+  text-transform: uppercase;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  letter-spacing: 8px;
+  font-size: #c7c5cf;
+  position: absolute;
+  bottom: 100px;
+  z-index: 2;
+  right: -80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-1 .tran-ngoc-anh{
+    width: auto;
+    text-align: center;
+    left: 0;
+    padding: 0 30px;
+  }
+  .section-1 .text {
+    bottom: 150px;
+    left: auto;
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    z-index: 10;
+  }
+  .section-1 .date{
+    bottom: 90px;
+  }
+  .section-2 .img-2{
+    display: none;
+  }
+  .section-2 .block-left, .section-2 .block-right{
+    width: 100%;
+    height: auto;
+  }
+  .section-2 .block-right, {
+    padding-left: 0;
+  }
+  .section-2 .block-right .caption{
+    padding: 150px 45px;
+    color: #fff;
+  }
+  .section-2 .caption .label, .section-2 .caption .value{
+    color: #fff;
+    font-size: 16px;
+  }
+  .section-2 .block-left img{
+    height: auto;
+    width: 100%;
+  }
+  .section-2 .block-left .text{
+    text-align: center;
+    font-size: 28px;
+    left:0;
+    right: 0;
+  }
+  .section-2 .block-left .year{
+    font-size: 18px;
+  }
+  .section-2 .fp-tableCell{
+    vertical-align: top;
+  }
+  .section-3 .block-left img, .section-3 .block-right img{
+    display: none;
+  }
+  .section-3 .caption{
+    position: static !important;
+    padding: 0 30px !important;
+  }
+  .section-3 .caption .social{
+    display: none;
+  }
+  .section-3 .block-right{
+    position: static !important;
+  }
+  .section-3 .block-right .caption{
+    text-align: left !important;
+  }
+  .section-4 .block-left{
+    padding: 0 30px;
+    box-sizing: border-box;
+    width: 100%;
+    bottom: auto !important;
+    top: 40%;
+  }
+  .section-4 .block-left h3{
+    font-size: 40px;
+  }
+   .section-5 .block-right{
+    width: 100%;
+   }
+  .section-5 .block-right{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0 35px;
+  }
+  .section-5 .block-right h4,.section-5 .block-right p{
+    color: #000;
+  }
+  .section-6 .block-left{
+    display: none;
+  }
+  .section-6 .block-right{
+    width: 100%;
+    padding: 0 35px;
+  }
+  .section-6 .text{
+    display: none;
+  }
+  p.tran-ngoc-anh{
+    display: none;
+  }
+  .section-8 .c{
+    display: none;
+  }
+  .section-8{
+    display: none !important;
+  }
+  .section-9 .block-left{
+    display: none;
+  }
+  .section-9 .block-right{
+    width: 100%;
+    padding: 0 35px;
+  }
+}
